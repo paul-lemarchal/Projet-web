@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+#image {
+  height: 50vh;
+  background-image: url('46372_1642698726.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#image-content {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+#nav {
+  background-color: #333;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: background-color 0.3s;
+}
+
+#nav a:hover {
+  background-color: #575757;
+}
+
+/* Mise en évidence du lien actif */
+#nav a.active {
+  background-color: #00f2fe; /* Bleu néon ou la couleur que tu préfères */
+  color: #333;
+}
+
+#home, #acheter-billet, #avis, #contact {
+  padding: 50px;
+  margin-top: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

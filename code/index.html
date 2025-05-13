@@ -3,80 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <title>Air Kyrgyzstan</title>
-  <style>
-    * {
-      margin: 30;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body, html {
-      height: 100%;
-      font-family: Arial, sans-serif;
-    }
-
-    .hero {
-      height: 45vh;
-      background-image: url('./46372_1642698726.webp');
-      background-size: cover;
-      background-position: center;
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.4);
-    }
-
-    .hero-content {
-      color: white;
-      font-size: 3rem;
-      z-index: 1;
-      text-align: center;
-    }
-
-    .hero-content h1 {
-      font-size: 3rem;
-      letter-spacing: 2px;
-    }
-
-    .hero-content p {
-      margin-top: 10px;
-      font-size: 1.2rem;
-    }
-
-    .content {
-      padding: 40px;
-      font-size: 1rem;
-      line-height: 1.6;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="hero">
-    <div class="overlay"></div>
-    <div class="hero-content">
+  <!-- Image d'accueil -->
+  <div id="image">
+    <div id="image-content">
       <h1>Air Kyrgyzstan</h1>
       <p>Aller partout depuis partout</p>
     </div>
   </div>
 
-  <div class="content">
+  <!-- Barre de navigation -->
+  <div id="nav">
+    <a href="index.html" class="active">Home</a>
+    <a href="acheter-billet.html">Acheter un billet</a>
+    <a href="avis.html">Avis</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- Contenu de la page -->
+  <div id="home">
     <h2>Bienvenue sur notre site</h2>
     <p>
       Air Kyrgyzstan vous offre des vols vers les plus belles destinations d'Asie Centrale et au-delà.
       Découvrez notre flotte moderne, notre service client primé, et réservez vos billets facilement.
       <br><br>
       Notre mission est de relier le Kirghizistan au monde entier tout en garantissant confort et sécurité.
-      Continuez à faire défiler la page pour en savoir plus sur nos services, nos tarifs et nos offres spéciales.
     </p>
   </div>
 
