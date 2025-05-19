@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Air Kyrgyzstan</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    .hero {
+      height: 45vh;
+      background-image: url('Air-Kyrgyzstan-Airlines-Dubai-Office-in-UAE-jpg.webp');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-content {
+      color: white;
+      font-size: 3rem;
+      z-index: 1;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Air Kyrgyzstan</h1>
+      <p>Aller partout depuis partout</p>
+    </div>
+  </div>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    </style>
+    
+    
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#news">Acheter un billet</a>
+      <a href="#contact">Avis</a>
+      <a href="#about">Contact</a>
+    </div>
+    
+  <div class="content">
+    <h2>Bienvenue sur notre site</h2>
+    <p>
+      Air Kyrgyzstan vous offre des vols vers les plus belles destinations d'Asie Centrale et au-delà.
+      Découvrez notre flotte moderne, notre service client primé, et réservez vos billets facilement.
+      <br><br>
+      Notre mission est de relier le Kirghizistan au monde entier tout en garantissant confort et sécurité.
+      Continuez à faire défiler la page pour en savoir plus sur nos services, nos tarifs et nos offres spéciales.
+    </p>
+    
+  </div>
+  <style>
+    .hero {
+    background-image: url('Air-Kyrgyzstan-Airlines-Dubai-Office-in-UAE-jpg.webp');
+    }
+  </style>
+  
+</body>
+</html>
