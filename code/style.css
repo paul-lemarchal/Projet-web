@@ -43,12 +43,13 @@ body {
 
 /* Mise en évidence du lien actif */
 #nav a.active {
-  background-color: #00f2fe; /* Bleu néon ou la couleur que tu préfères */
+  background-color: #00aefe; 
   color: #333;
 }
 
 #home, #acheter-billet, #avis, #contact {
-  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-top: 20px;
   background-color: #f4f4f4;
   border-radius: 10px;
