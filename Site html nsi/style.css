@@ -160,3 +160,53 @@ button:hover {
   background-color: #00cd2d3
 }
   
+.lettre {
+  flex : 0.01;
+  text-align: center;
+  background-color: none;
+  height: 20px;
+  width: 15px;
+  margin: 3px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.seat {
+  flex : 0.01;
+  background-color: #444451;
+  height: 12px;
+  width: 15px;
+  margin: 3px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.hallway {
+  flex : 0.01;
+  text-align: center;
+  background-color: none;
+  height: 0px;
+  width: 20px;
+  margin: 3px;
+  padding:10 pixels;
+}
+
+.sidehallway {
+  flex : 0.01;
+  text-align: center;
+  background-color: none;
+  height: 15px;
+  width: 20px;
+  margin: 3px;
+  padding:10 pixels;
+}
+
+.row {
+  display: flex;
+}
+
+.seat.available:hover {
+  background-color: #a8d5a8;
+}
+.seat.selected {
+  background-color: #6c9;
+}
