@@ -56,13 +56,11 @@ ebody {
 }
 
 #home {
-  padding-top: 40px;
-  padding-bottom: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 40px 50px 20px 50px;
   margin-top:20px;
   margin-left:20px;
   margin-right:20px;
+  margin: 20px 20px 0px 20px;
   background-color: #f4f4f49a;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
