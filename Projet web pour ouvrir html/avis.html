@@ -29,19 +29,31 @@
   <form action="/avis_ajout" method="POST">
     <label for="name">Nom : <input type="text" id="name" name="new_avis" required></label>
     <label for="rating">Donnez-nous une note ! (Entre 0 et 5)<input type="number" id="rating" name="new_avis" min="0" max="5" step="0.1"></label>
-	  <label>Message : <input type="text" name="new_avis"></label>
-	  <input type="submit" value="Envoyer">
-	</form>
+    <label>Message : <input type="text" name="new_avis"></label>
+    <input type="submit" value="Envoyer">
+  </form>
 
-    <ul>
-	  	{% for new_avis in les_avis %}
-  <div id="avis">
-	  	<b>Message de {{new_avis[0]}} avec une note de satisfaction de {{new_avis[1]}}/5 !</b>
+  <ul>
+    {% for new_avis in les_avis %}
+    <div id="avis">
+      <b>Message de {{new_avis[0]}} avec une note de satisfaction de {{new_avis[1]}}/5 !</b>
       <br><br>
       <div style="font-family: 'Times New Roman', Times, serif;font-size: 17px;">{{new_avis[2]}}</div>
+    </div>
+    {% endfor %}
+  </ul>
+
+
+  <!-- Pied de page -->
+<footer id="footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Air Kyrgyzstan. Tous droits réservés.</p>
+    <p>
+      <a href="contact.html">Contact</a> |
+      <a href="mentions-legales.html">Mentions légales</a> |
+      <a href="https://www.instagram.com/kyrgyzstan.guide/" target="_blank">Instagram</a>
+    </p>
   </div>
-	  	{% endfor %}
-	  </ul>
-	
+</footer>
 </body>
 </html>
